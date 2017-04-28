@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/timeline.css') }}">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/readMore.css') }}">
+	<title> BigWork - juntos somos maiores!</title>
+</head>
+<body>
+
+<header class="header">
+  <h1><a href="/">BigWork</a></h1>
+  <h6><i>Portal de desafios para jovens</i></h6>
+<div class="row">
+  <h2><a href="/about">Sobre</a></h2>
+  <h2><a href="/mission">Missão</a></h2>
+  <h2><a href="/company">Empresas</a></h2>
+  <h2><a href="/student">Estudantes</a></h2>
+  <a href="/login"><button class="material-button">Login</button></a>
+</div>  
+  <form>
+  <input type="text" name="search" placeholder="Pesquisar desafios...">
+  </form>
+</header>
+
+	{% block about %}{% endblock %}
+    {% block home %}{% endblock %}
+    {% block student %}{% endblock %}
+    {% block company %}{% endblock %}
+    {% block mission %}{% endblock %}
+	{% block intel %}{% endblock %}
+
+</body>
+</html>
