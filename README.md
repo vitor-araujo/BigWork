@@ -1,7 +1,31 @@
 # BigWork
 Crowd-sourcing platform for young workers to build the future.
 
-##We believe young people can work better than they think.
+## We believe young people can work better than they think.
 So we are building and designing the platform to show the owrld exactly that. 
 
 *Using Python Flask, pure CSS and material design.*
+
+First create a virtuaenv 
+
+
+```python
+ pip install virtualenv
+```
+
+then in the main folder, run the virtual environment
+
+```pyhton
+
+virtualenv venv
+
+```
+this will create a virtual environment and a folder called "***venv***"
+
+then activate the environment
+
+```python
+
+venv bin/activate
+
+```
