@@ -29,3 +29,12 @@ then activate the environment
 venv bin/activate
 
 ```
+
+to run the platform locally, do this:
+
+
+```python
+cd into/the/mainfolder
+python app.py
+
+```
