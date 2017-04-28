@@ -27,6 +27,9 @@ def intel():
 def login():
     return render_template("login.html")
 
+@app.route("/techintel")
+def techintel():
+    return render_template("techintel.html")
 
 if __name__ == "__main__":
   app.run()

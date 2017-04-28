@@ -2,8 +2,10 @@
 {% block about %}
 
 <section id=timeline>
-	<h1>Projeto Intel for care</h1>
+	<div class="header"><h1>Projeto Intel for care</h1>
+	<a href="{{url_for('static', filename='projectintel.pdf')}}" target="_blank"><button class="material-button">PDF da proposta, instruções e metas do projeto</button></a>
 	<p class="leader">Participe das etapas do desafio e construa seu currículo!</p>
+	</div>
 	<div class="demo-card-wrapper">
 		<div class="demo-card demo-card--step1">
 			<div class="head">
@@ -14,7 +16,7 @@
 			</div>
 			<div class="body">
 				<p>Todos os dados e informações relevantes as tecnologias necessárias para o andamento do projeto.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+				<img src="{{url_for('static', filename='tech-min.jpg')}}" alt="Graphic">
 			</div>
 		</div>
 
@@ -27,7 +29,7 @@
 			</div>
 			<div class="body">
 				<p>Todos os dados e informações relevantes ao design, necessários para o andamento do projeto.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+				<img src="{{url_for('static', filename='design-min.jpg')}}" alt="Graphic">
 			</div>
 		</div>
 
@@ -40,7 +42,7 @@
 			</div>
 			<div class="body">
 				<p>Todos os dados e informações relevantes à produção distribuição e manufatura, necessários para o andamento do projeto.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+				<img src="{{url_for('static', filename='manu-min.jpg')}}" alt="Graphic">
 			</div>
 		</div>
 
@@ -53,7 +55,7 @@
 			</div>
 			<div class="body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+				<img src="{{url_for('static', filename='test-min.jpg')}}" alt="Graphic">
 			</div>
 		</div>
 
@@ -66,7 +68,7 @@
 			</div>
 			<div class="body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
-				<img src="http://placehold.it/1000x500" alt="Graphic">
+				<img src="{{url_for('static', filename='result-min.jpg')}}" alt="Graphic">
 			</div>
 		</div>
     

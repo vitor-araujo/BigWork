@@ -232,13 +232,14 @@ span {
 
 /* When the input field gets focus, change its width to 100% */
 input[type=text]:focus {
-    width: 100%;
+    width: 25%;
 }
 
 /* material button for follow this project */
 
 
 .material-button {
+  margin-bottom: 15px;
   padding: 5px 10px;
   font-size: 1rem;
   font-family: "Heebo","Roboto", sans-serif;
