@@ -1,8 +1,9 @@
 # BigWork
 Crowd-sourcing platform for young workers to build the future.
+[presentation](https://slides.com/vitoraraujo/deck-2/fullscreen#/) 
 
 ## We believe young people can work better than they think.
-So we are building and designing the platform to show the owrld exactly that. 
+So we are building and designing the platform to show the world exactly that. 
 
 *Using Python Flask, pure CSS and material design.*
 
@@ -38,3 +39,5 @@ cd into/the/mainfolder
 python app.py
 
 ```
+
+
