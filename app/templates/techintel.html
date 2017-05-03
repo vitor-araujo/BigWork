@@ -1,133 +1,32 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/techintel.css') }}">
-</head>
-
-<header class="header">
-  <h1><a href="/">BigWork</a></h1>
-  <h6><i>Portal de desafios para jovens</i></h6>
-</header>
+{% extends "nav.html"%}
+{% block techintel %}
 <body>
+<section id=timeline>
+<div class="header"><h1>Projeto Intel for care</h1>
+<p class="leader">01 Technology</p>
 
-<div class="margin-50">
-
-  <div class="panel panel-default panel-post animated" id="post4580">
-    <div class="panel-heading no-bg">
-      <div class="post-author">
-        <div class="post-options">
-          <ul class="list-inline no-margin">
-            <li class="dropdown">
-              <button class="btn cleared dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                <i class="fa fa-angle-down"></i>
-</button>
-
-              <!-- ul Dropdown -->
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#">Share</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Delete</a></li>
-              </ul>
-              <!-- ul Dropdown end -->
-
-            </li>
-
-          </ul>
-        </div>
-        <div class="user-avatar">
-          <a href="#">
-            <img src="http://i.imgur.com/sSSZRFZ.jpg" alt="JakuDK" title="JakuDK"></a>
-        </div>
-        <div class="user-post-details">
-          <ul class="list-unstyled no-margin">
-            <li>
-              <a href="#" title="" data-toggle="tooltip" data-placement="top" class="user-name user" data-original-title="JakuDK">
-              JakuDK
-            </a> ·
-              <span class="user-name userTitle">Screenwriter</span>
-            </li>
-            <li>
-              <time class="post-time timeago" datetime="2016-11-07 23:59:41" title="2016-11-07 23:59:41">4hrs ago</time>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="panel-body">
-      <div class="text-wrapper">
-        <p></p>
-        <!-- Text Status -->
-        <!-- <div class="post-image-holder"></div>  Image -->
-        <!-- Article Title -->
-        <!--PEN CODE-->
-
-        <div class="blog-card">
-          <div class="photo photo1">
-            <!-- Header -->
-            <div id="actions">
-              <div class="spacer"></div>
-              <div class="icon">
-                ...
-
-              </div>
-            </div>
-            <!-- Header End -->
-            <div class="photo-cover">
-              <div class="photo-cover-image" style="background-image: url('https://image.tmdb.org/t/p/original/lmzEsdengdpVfqkiMLeRL0yj4Oq.jpg');"></div>
-            </div>
-            <div class="photo-dvd">
-              <a href="#"><img src="https://image.tmdb.org/t/p/w640/uUvsPl8B2SkJVDcMztev2MoxPG.jpg" title="How to Train Your Dragon" width="60&quot;" height="86">
-              </a>
-            </div>
-            <ul class="details">
-              <li class="author"><a href="#">John Doe</a></li>
-              <li class="date">Aug. 24, 2015</li>
-              <li class="tags">
-                <ul>
-                  <li><a href="#">Learn</a></li>
-                  <li><a href="#">Code</a></li>
-                  <li><a href="#">HTML</a></li>
-                  <li><a href="#">CSS</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="description">
-            <h1>
-			<a href="#" class="ellipsis">How to Train Your Dragon (2015)</a>
-		</h1>
-            <h2><img src="http://www.bytedash.com/launchbar/images/fresh.png" style="max-width: 15px;vertical-align: top;"> 95%</h2>
-            <p class="summary">When Louis Bloom, a driven man desperate for work, muscles into the world of L.A. crime journalism, he blurs the line between observer and participant.</p>
-          </div>
-        </div>
-
-        <!--END PEN CODE-->
-        <!-- Article Title End -->
-      </div>
-
-    </div>
-
-
-    <div class="panel-footer socialite">
-      <ul class="list-inline footer-list">
-        <li class="hidden"><a href="#" class="like-post like-4580" data-post-id="4580"><i class="fa fa-thumbs-o-up"></i>like</a></li>
-
-        <li><a href="#" class="show-comments"><button class="btn cleared" type="button"><i class="fa fa-retweet" aria-hidden="true"></i></button></a></li>
-
-        <li><a href="#" class="show-comments"><button class="btn cleared" type="button"><i class="fa fa-comment-o" aria-hidden="true"></i></button></a></li>
-
-        <li><a href="#" class="blog-stats"><button class="btn cleared" type="button"><i class="fa fa-bar-chart" aria-hidden="true"></i>
-</button></a></li>
-
-
-      </ul>
-    </div>
-
+<div class="media attribution">
+<div class="row">
+  <div class="column">
+  <a href="http://twitter.com/stubbornella" class="img">
+    <img src="http://res.cloudinary.com/demo/image/facebook/65646572251.jpg" alt="me" />
+  </a>
+  <h5>@Stubbornella</h5>
+  <div class="bd">
+    Posted 14 minutes ago
   </div>
-
+  </div>
+  <div class="column">
+  <p>Seguem os códigos da interface! Revisei os arquivos do @PolaF, estavam excelentes!</p>
+  <a href=""><button class="material-button dll">ArquivoInterface.html</button></a>
+</div> 
+</div> 
+  <div class="bd">
+    </div>
 </div>
-<!-- Margin 50 -->
+</div>
+</section>
+</div>
 </body>
+
+{% endblock %}

@@ -239,7 +239,7 @@ input[type=text]:focus {
 
 
 .material-button {
-  margin-bottom: 15px;
+  margin: 15px;
   padding: 5px 10px;
   font-size: 1rem;
   font-family: "Heebo","Roboto", sans-serif;
@@ -293,3 +293,15 @@ input[type=text]:focus {
             transform: scale(2.5);
   }
 }
+
+/*Contribution thread*/
+
+/* ====== media ====== */
+.media {margin:10px; text-align: center; overflow:hidden; _overflow:visible; zoom:1; color: black;}
+.media:hover {background: #d3d3d3; margin-right: 30%; margin-left: 30%;}
+.bd {overflow:hidden; _overflow:visible; zoom:1; color: gray;}
+.media .img {margin-right: 10px;}
+.media .img img{display:inline-flex; max-width: 55px;}
+.media .imgExt{float:right; margin-left: 10px;}
+.dll {margin-left: 3.5rem;}
+.leader {font-size: 25px; margin-bottom: 100px;}
