@@ -35,4 +35,4 @@ def usercv():
     return render_template("usercv.html")
 
 if __name__ == "__main__":
-  app.run(host="192.168.0.193")
+  app.run()
