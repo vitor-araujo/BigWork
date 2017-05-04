@@ -1,8 +1,7 @@
 from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
-app.debug = 1
-
+app.config['DEBUG'] = True
 @app.route("/")
 def home():
     return render_template("home.html")
@@ -31,5 +30,9 @@ def login():
 def techintel():
     return render_template("techintel.html")
 
+@app.route("/usercv")
+def usercv():
+    return render_template("usercv.html")
+
 if __name__ == "__main__":
-  app.run()
+  app.run(host="192.168.0.193")

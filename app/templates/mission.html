@@ -1,9 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+{% extends "nav.html"%}
+{% block mission %}
 
-</body>
-</html>
+       <div class="article-body" style="font-size: 20px; text-align: center; align-items: center; justify-content: center;">
+        <h1 class="article-title">
+          Missão
+        </h1>
+        <img style="max-width: 750px;" src="{{ url_for('static',filename='worker.jpg') }}">
+
+        <p class="article-content">
+          Nós acreditamos que podemos reduzir o desemprego entre os jovens se os ajudarmos a se capacitarem e entrarem em contato com as empresa.</p>
+           <p class="article-content">
+          Para isso criamos uma plataforma que facilita tanto networking com empresas quanto construção do currículo.</p>
+
+         </div>
+
+
+{% endblock %}
